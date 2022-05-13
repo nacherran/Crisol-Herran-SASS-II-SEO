@@ -1,0 +1,63 @@
+.productos {
+  background-color: green;
+  color: black;
+}
+
+.botones {
+  margin: 10px;
+}
+
+.boton, .boton-lista {
+  border: 0;
+  padding: 8px 25px;
+  border-radius: 8px;
+  color: black;
+}
+
+.boton:hover, .boton-lista:hover {
+  background-color: rgba(0, 128, 0, 0.849);
+}
+
+.boton-lista {
+  background-color: white;
+  color: black;
+  width: auto;
+  height: auto;
+}
+
+.boton-lista:hover {
+  background-color: rgba(0, 128, 0, 0.849);
+}
+
+footer {
+  background-color: chocolate;
+}
+
+body {
+  background-color: green;
+  margin: 0%;
+  padding: 0%;
+  color: white;
+}
+
+body .container-fluid {
+  background-color: rgba(0, 128, 0, 0.849);
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+}
+/*# sourceMappingURL=style.css.map */
