@@ -33,6 +33,10 @@ footer {
   background-color: chocolate;
 }
 
+.bg-titulo {
+  background-color: rgba(0, 0, 0, 0.582);
+}
+
 body {
   background-color: green;
   margin: 0%;
