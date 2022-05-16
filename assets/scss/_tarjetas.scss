@@ -1,0 +1,10 @@
+.tarjeta{
+    display: flex;
+    margin: 5px;
+    .tarjeta__texto{
+        margin-left: 10px;
+    }
+    button{
+        @extend .boton;
+    }
+}

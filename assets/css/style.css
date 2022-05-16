@@ -7,14 +7,14 @@
   margin: 10px;
 }
 
-.boton, .boton-lista {
+.boton, .boton-lista, .tarjeta button {
   border: 0;
   padding: 8px 25px;
   border-radius: 8px;
   color: black;
 }
 
-.boton:hover, .boton-lista:hover {
+.boton:hover, .boton-lista:hover, .tarjeta button:hover {
   background-color: rgba(0, 128, 0, 0.849);
 }
 
@@ -31,6 +31,17 @@
 
 footer {
   background-color: chocolate;
+}
+
+.tarjeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+}
+
+.tarjeta .tarjeta__texto {
+  margin-left: 10px;
 }
 
 .bg-titulo {
@@ -61,7 +72,15 @@ h3 {
   font-size: 18px;
 }
 
+h4 {
+  font-size: 16px;
+}
+
 p {
   font-size: 18px;
+}
+
+.somos {
+  font-size: 26px;
 }
 /*# sourceMappingURL=style.css.map */

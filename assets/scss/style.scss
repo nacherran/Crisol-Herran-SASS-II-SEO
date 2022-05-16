@@ -3,6 +3,7 @@
 @import "_productos";
 @import "_boton";
 @import "_footer"; 
+@import "_tarjetas";
 
 .bg-titulo{
     background-color: rgba(0, 0, 0, 0.582);
@@ -30,7 +31,13 @@ h2{
 h3{
     font-size: 18px;
 }
+h4{
+    font-size: 16px;
+}
+
 p{
     font-size: 18px;
 }
-
+.somos{
+    font-size: 26px;
+}
